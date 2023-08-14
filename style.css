@@ -75,3 +75,13 @@ span {
 #guia {
   font-size: 12px;
 }
+footer {
+  width: 100%;
+  color: #FFFFFF;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  bottom: 3px;;
+}
