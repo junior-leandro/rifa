@@ -112,7 +112,7 @@ const num99 = document.getElementById('99').innerText;
         
         ]
 
-        for (let i = 0; i < vendidos.length ; i++) {
+        for (let i = 0; i <= 99 ; i++) {
             console.log(i);
             console.log(vendidos)
             /*
