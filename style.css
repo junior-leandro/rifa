@@ -6,6 +6,7 @@
 
 body {
   background: url("./assets/background.jpg") no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -13,6 +14,7 @@ body {
 
 main {
   display: flex;
+  flex-direction: column;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -20,7 +22,7 @@ main {
 
 .numbers {
   display: flex;
-  width: 700px;
+  max-width: 700px;
   height: 100%;
   background-color: #000000;
   margin: 50px 30px;
@@ -72,16 +74,59 @@ span {
 .vendido {
   background-color: #414141;
 }
+
+.vencedor {
+  background-color: #8d0052;
+}
+.resultado {
+  max-width: 700px;
+  border-radius: 1rem;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: red;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 10px 30px;
+}
+.site {
+  font-size: 18px;
+  margin: 15px auto;
+}
 #guia {
   font-size: 12px;
+}
+ul {
+  margin-top: 5px;
+}
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
+a  {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  transform: scale(105%);
+  text-decoration: underline;
 }
 footer {
   width: 100%;
   color: #FFFFFF;
-  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  bottom: 3px;;
+  bottom: 3px;
+}
+.copy {
+  font-size: 18px;
 }
